@@ -88,7 +88,7 @@ absolute).
 
 #### Pretrained Models
 
-You don't need to use pretrained models, but it can speed things up tremendously. Run the `run_model_downloader.py`
+You don't need to use pretrained models, but it can speed things up tremendously. Run the `python run_model_downloader.py`
 script to automatically download them from the release page and put them into their appropriate locations with
 appropriate names.
 
@@ -119,6 +119,8 @@ espeak-ng via
 
 ```
 sudo port install espeak-ng
+or 
+brew install espeak-ng
 ```
 
 As stated in the Windows install instructions, the espeak-ng installation will need to be set as a variable for the
